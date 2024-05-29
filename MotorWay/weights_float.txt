@@ -1,0 +1,7 @@
+traffic_weight 0.0
+fastFoods_weight 99.20985560973496
+hotels_weight 4.934690512757022
+motorwayLinks_weight 35.860793012108964
+motorways_weight 99.11150706397427
+restaurants_weight 66.90143264496447
+shopSupermarkets_weight 44.84368475683832

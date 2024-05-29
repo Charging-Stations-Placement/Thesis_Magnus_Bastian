@@ -1,0 +1,140 @@
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\bin\Debug\net7.0\MapApp.staticwebassets.runtime.json
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\bin\Debug\net7.0\MapApp.exe
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\bin\Debug\net7.0\MapApp.deps.json
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\bin\Debug\net7.0\MapApp.runtimeconfig.json
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\bin\Debug\net7.0\MapApp.dll
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.AssemblyReference.cache
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.AssemblyInfoInputs.cache
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.AssemblyInfo.cs
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.CoreCompileInputs.cache
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.RazorAssemblyInfo.cache
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.RazorAssemblyInfo.cs
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.sourcelink.json
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.MapApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.build.MapApp.props
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MapApp.props
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MapApp.props
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\scopedcss\bundle\MapApp.styles.css
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\scopedcss\projectbundle\MapApp.bundle.scp.css
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.CopyComplete
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.dll
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\refint\MapApp.dll
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\MapApp.genruntimeconfig.cache
+C:\Users\Magnus Tang\source\repos\emilhu20\RnD_AU_Norlys\NetProject\MapApp\MapApp\obj\Debug\net7.0\ref\MapApp.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.staticwebassets.runtime.json
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.exe
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.deps.json
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.runtimeconfig.json
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Data.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.NTSExtension.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Projections.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Serialization.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\NetTopologySuite.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.AssemblyReference.cache
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.AssemblyInfoInputs.cache
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.AssemblyInfo.cs
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.CoreCompileInputs.cache
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.RazorAssemblyInfo.cache
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.RazorAssemblyInfo.cs
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.sourcelink.json
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.MapApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.build.MapApp.props
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MapApp.props
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MapApp.props
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\scopedcss\bundle\MapApp.styles.css
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\scopedcss\projectbundle\MapApp.bundle.scp.css
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.CopyComplete
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\refint\MapApp.dll
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.genruntimeconfig.cache
+C:\Users\basti\Desktop\Master\frontend-map\MapApp\MapApp\obj\Debug\net7.0\ref\MapApp.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.staticwebassets.runtime.json
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.exe
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.deps.json
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.runtimeconfig.json
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\MapApp.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Data.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.NTSExtension.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Projections.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Serialization.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\NetTopologySuite.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.AssemblyReference.cache
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.AssemblyInfoInputs.cache
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.AssemblyInfo.cs
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.CoreCompileInputs.cache
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.RazorAssemblyInfo.cache
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.RazorAssemblyInfo.cs
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.sourcelink.json
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.MapApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.build.MapApp.props
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MapApp.props
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MapApp.props
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\scopedcss\bundle\MapApp.styles.css
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\scopedcss\projectbundle\MapApp.bundle.scp.css
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.CopyComplete
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\refint\MapApp.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\MapApp.genruntimeconfig.cache
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\obj\Debug\net7.0\ref\MapApp.dll
+C:\Users\Magnus Tang\OneDrive\Uni\10. semester\frontend-map\MapApp\MapApp\bin\Debug\net7.0\Polygons.json
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\MapApp.staticwebassets.runtime.json
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\MapApp.exe
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\MapApp.deps.json
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\MapApp.runtimeconfig.json
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\MapApp.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Data.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.NTSExtension.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Projections.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\DotSpatial.Serialization.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\NetTopologySuite.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.AssemblyReference.cache
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.AssemblyInfoInputs.cache
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.AssemblyInfo.cs
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.CoreCompileInputs.cache
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.RazorAssemblyInfo.cache
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.RazorAssemblyInfo.cs
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.sourcelink.json
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.MapApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.build.MapApp.props
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MapApp.props
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MapApp.props
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\scopedcss\bundle\MapApp.styles.css
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\scopedcss\projectbundle\MapApp.bundle.scp.css
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.csproj.CopyComplete
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\refint\MapApp.dll
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\MapApp.genruntimeconfig.cache
+C:\Users\basti\Desktop\Master\Thesis_Magnus_Bastian\MapApp\MapApp\obj\Debug\net7.0\ref\MapApp.dll

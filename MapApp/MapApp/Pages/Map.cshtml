@@ -1,0 +1,207 @@
+﻿@page
+@model MapApp.Pages.MapModel
+@{
+    ViewData["Title"] = "Map";
+    var jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(Model.GravityPoints);
+}
+<!-- Add a hidden input to store the generated URL -->
+<input type="hidden" id="updateBoundsUrl" value="/Map?handler=UpdateBounds" />
+
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        position: relative; /* Ensure the body is positioned relatively */
+    }
+
+    #mapid {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1; /* Lower z-index for map */
+    }
+
+    #updateButton {
+        position: absolute; /* Position the button absolutely */
+        bottom: 10px; /* Distance from the bottom */
+        left: 10px; /* Distance from the left */
+        z-index: 2; /* Higher z-index for the button to be on top */
+    }
+</style>
+
+<div id="mapid"></div>
+<button id="updateButton">Update</button>
+
+
+<script>
+
+    var gravityData = @Html.Raw(jsonData);
+
+    // Initialize a global array to keep track of markers
+    var markers = [];
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        var map = L.map('mapid').setView([55.58, 11.46], 7);
+        var pointsLayer = L.layerGroup().addTo(map);
+        var denmarkBoundaries;
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        function sendBoundsToServer() {
+            var bounds = map.getBounds();
+            var updateBoundsUrl = document.getElementById('updateBoundsUrl').value;
+
+            // Correct the URL construction here
+            var queryString = `&northEastLat=${bounds.getNorthEast().lat}&northEastLng=${bounds.getNorthEast().lng}&southWestLat=${bounds.getSouthWest().lat}&southWestLng=${bounds.getSouthWest().lng}`;
+            var fullUrl = updateBoundsUrl + queryString;
+
+            fetch(fullUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.text(); // First read as text
+                })
+                .then(text => {
+                    try {
+                        return JSON.parse(text); // Then try to parse as JSON
+                    } catch (err) {
+                        console.error('Response was not JSON:', text);
+                        throw new Error('Response was not JSON');
+                    }
+                })
+                .then(data => {
+                    // Check if data is an array and iterate over it
+                    if (Array.isArray(data)) {
+
+                        // Remove old markers from the map
+                        markers.forEach(marker => map.removeLayer(marker));
+                        markers = []; // Reset the markers array
+
+                        // First, filter out points without required properties to ensure we have valid data
+                        var gravityData = data.filter(point => point.longitude !== undefined && point.latitude !== undefined && point.gravity !== undefined);
+
+                        // Calculate min and max gravity outside of the forEach loop to optimize performance
+                        var minGravity = Math.min(...gravityData.map(point => point.gravity));
+                        var maxGravity = Math.max(...gravityData.map(point => point.gravity));
+                        var gravityRange = maxGravity - minGravity; // This might be used for further calculations
+
+                        // Define color ranges
+                        //var colorRanges = [50, 200, 400, 1000, 2500];
+
+                        // Calculate mean of gravity data
+                        var meanGravity = gravityData.reduce((acc, point) => acc + point.gravity, 0) / gravityData.length;
+                        
+                        var range = 30000 / 15;
+                        // make the color ranges based on the mean gravity / 2.5
+                        var colorRanges = [range , range * 2, range * 3, range * 4, range * 5, range * 6, range * 7, range * 8, range * 9, range * 10, range * 11, range * 12, range * 13, range * 14, range * 15];
+
+
+
+
+                        gravityData.forEach(function (point) {
+                            var color;
+                            if (point.gravity <= colorRanges[0]) {
+                                color = '#08306b'; // Dark blue
+                            } else if (point.gravity <= colorRanges[1]) {
+                                color = '#08519c'; // Blue
+                            } else if (point.gravity <= colorRanges[2]) {
+                                color = '#2171b5'; // Light blue
+                            } else if (point.gravity <= colorRanges[3]) {
+                                color = '#4292c6'; // Sky blue
+                            } else if (point.gravity <= colorRanges[4]) {
+                                color = '#6baed6'; // Light sky blue
+                            } else if (point.gravity <= colorRanges[5]) {
+                                color = '#9ecae1'; // Pale blue
+                            } else if (point.gravity <= colorRanges[6]) {
+                                color = '#c6dbef'; // Very pale blue
+                            } else if (point.gravity <= colorRanges[7]) {
+                                color = '#fdd49e'; // Pale yellow
+                            } else if (point.gravity <= colorRanges[8]) {
+                                color = '#fdbb84'; // Light yellow
+                            } else if (point.gravity <= colorRanges[9]) {
+                                color = '#fe9929'; // Yellow
+                            } else if (point.gravity <= colorRanges[10]) {
+                                color = '#ec7014'; // Orange
+                            } else if (point.gravity <= colorRanges[11]) {
+                                color = '#cc4c02'; // Light red-orange
+                            } else if (point.gravity <= colorRanges[12]) {
+                                color = '#ef3b2c'; // Red
+                            } else if (point.gravity <= colorRanges[13]) {
+                                color = '#cb181d'; // Dark red
+                            } else {
+                                color = '#99000d'; // Very dark red
+                            }
+
+                            // Create a circle marker for each point on the map
+                            var marker = L.circleMarker([point.latitude, point.longitude], {
+                                color: color,
+                                radius: 5
+                            }).addTo(map);
+
+                            // Store the marker so it can be removed later
+                            markers.push(marker);
+                        });
+                    } else {
+                        console.error('Invalid data format:', data);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+
+        // Button event listener for updating grid points
+        document.getElementById('updateButton').addEventListener('click', function () {
+            sendBoundsToServer()
+        });
+
+        /*
+        // Assuming gravityData is an array of points with latitude, longitude, and gravity properties
+        var minGravity = Math.min(...gravityData.map(point => point.gravity));
+        var maxGravity = Math.max(...gravityData.map(point => point.gravity));
+        var gravityRange = maxGravity - minGravity;
+        //var colorRanges = [1, 2, 3, 4, 5].map(n => minGravity + n * gravityRange / 5);
+        var colorRanges = [50, 200, 400, 1000, 2500]
+        gravityData.forEach(function (point) {
+            var color;
+            if (point.gravity <= colorRanges[0]) {
+                color = 'blue'; // First color
+            } else if (point.gravity <= colorRanges[1]) {
+                color = 'green'; // Second color
+            } else if (point.gravity <= colorRanges[2]) {
+                color = 'yellow'; // Third color
+            } else if (point.gravity <= colorRanges[3]) {
+                color = 'orange'; // Fourth color
+            } else {
+                color = 'red'; // Fifth color
+            }
+
+            // Print the color ranges
+            console.log(`Color Ranges based on Gravity:`);
+            console.log(`Blue: Up to ${colorRanges[0]}`);
+            console.log(`Green: ${colorRanges[0]} to ${colorRanges[1]}`);
+            console.log(`Yellow: ${colorRanges[1]} to ${colorRanges[2]}`);
+            console.log(`Orange: ${colorRanges[2]} to ${colorRanges[3]}`);
+            console.log(`Red: Above ${colorRanges[3]}`);
+
+            var marker = L.circleMarker([point.latitude, point.longitude], {
+                color: color,
+                radius: 5
+            }).addTo(map);
+            
+        });*/
+    });
+
+</script>

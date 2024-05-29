@@ -1,0 +1,7 @@
+traffic_distance 0.1
+fastFoods_distance 0.1
+hotels_distance 0.1
+motorwayLinks_distance 0.1
+motorways_distance 0.1
+restaurants_distance 0.1
+shopSupermarkets_distance 0.1

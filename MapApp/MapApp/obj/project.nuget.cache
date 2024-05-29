@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "dgSpecHash": "knSzFNE9c+VQDqyRH6X+tNyjaq0geTd0chtAThzHuZ85Z3qzRBqrBjJSt0d3LdH1O1sonAZcpzcFFldnSIB4KQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\basti\\Desktop\\Master\\Thesis_Magnus_Bastian\\MapApp\\MapApp\\MapApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\basti\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\dotspatial.data\\3.0.1\\dotspatial.data.3.0.1.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\dotspatial.ntsextension\\3.0.1\\dotspatial.ntsextension.3.0.1.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\dotspatial.projections\\3.0.1\\dotspatial.projections.3.0.1.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\dotspatial.serialization\\3.0.1\\dotspatial.serialization.3.0.1.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\nettopologysuite\\2.4.0\\nettopologysuite.2.4.0.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotSpatial.Data 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotSpatial.Data",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotSpatial.NTSExtension 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotSpatial.NTSExtension",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotSpatial.Projections 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotSpatial.Projections",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotSpatial.Serialization 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotSpatial.Serialization",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
