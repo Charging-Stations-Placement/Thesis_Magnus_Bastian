@@ -8,7 +8,7 @@ This repository contains the code and data used for the thesis of Magnus and Bas
 - `Urban/`: This is the test and code for creating the gravity model for the case where charging stations in the city are included in the model.
 - `Motorway/`: This is the test and code for creating the gravity model for the case where charging stations on the motorway are included in the model. 
 
-Then there is the folder `MapApp`/` this is the code for the map application. Users can use the gravity model to get heat maps interactively and use it to get an understanding of how to place new stations or where the station is mostly to be used.
+Then there is the folder `MapApp/` this is the code for the map application. Users can use the gravity model to get heat maps interactively and use it to get an understanding of how to place new stations or where the station is mostly to be used.
 
 ## Genectic Algorithm Weight Optimization
 The first three folders contain the same code but with different data. The structure is as follows:
