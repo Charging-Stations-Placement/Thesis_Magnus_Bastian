@@ -10,6 +10,8 @@ This repository contains the code and data used for the thesis of Magnus and Bas
 
 Then there is the folder `MapApp/` this is the code for the map application. Users can use the gravity model to get heat maps interactively and use it to get an understanding of how to place new stations or where the station is mostly to be used.
 
+There is also a file `RnD_Article_Siting_Charging_Stations_for_Electric_Vehicles.pdf`. This paper is where the charing station data was derived and created. That then is used as the station data in the Thesis.
+
 ## Genectic Algorithm Weight Optimization
 The first three folders contain the same code but with different data. The structure is as follows:
 - `Datasets/`: Contains the data used for the gravity model. The data is in the form of a CSV file.
