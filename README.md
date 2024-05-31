@@ -12,6 +12,8 @@ Then there is the folder `MapApp/` this is the code for the map application. Use
 
 There is also a file `RnD_Article_Siting_Charging_Stations_for_Electric_Vehicles_Data_Analysis.pdf`. This paper is where the charging station data was derived and created. That then is used as the station data in the Thesis.
 
+The folder `Appendix/` contains the plots for all the results that were created in the thesis.  
+
 ## Genectic Algorithm Weight Optimization
 The first three folders contain the same code but with different data. The structure is as follows:
 - `Datasets/`: Contains the data used for the gravity model. The data is in the form of a CSV file.
