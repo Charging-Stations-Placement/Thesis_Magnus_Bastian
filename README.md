@@ -25,7 +25,7 @@ In Urban and Motorway there is a file called `ModelPredictUse.ipynb` this file c
 
 
 ## Map Application
-The Map Application is a Visual Studio project that uses the gravity model to create heat maps. The user can interact with the map and see how the heat map is at different locations and zooms. To run this code you need to have Visual Studio 2022 where the .Net Desktop Development and Desktop Development with C++ both are installed.
+The Map Application is a Visual Studio project that uses the gravity model to create heat maps. The user can interact with the map and see how the heat map is at different locations and zooms. To run this code you need to have Visual Studio 2022 where the .Net Desktop Development and Desktop Development with C++ both are installed. Then open the solution in the `MapApp` folder and run the code. Then a terminal will open and a browser will open where the user can press the map menu button and a map will open. The user can then interact with the map and press the update button in the left lower corner to create a heat map of the viewed area. Here a 40 by 40 grid is created of the gravity scores as a heat map. This takes around a minute to create. The user can then see the heat map and interact with it.
 
 
 
