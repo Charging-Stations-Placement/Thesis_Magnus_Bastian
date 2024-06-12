@@ -12,6 +12,8 @@ Then there is the folder `MapApp/` this is the code for the map application. Use
 
 There is also a file `RnD_Article_Siting_Charging_Stations_for_Electric_Vehicles_Data_Analysis.pdf`. This paper is where the charging station data was derived and created. That then is used as the station data in the Thesis.
 
+The master thesis is the file named `Master_Thesis.pdf`.
+
 The folder `Appendix/` contains the plots for all the results that were created in the thesis.  
 
 ## Genectic Algorithm Weight Optimization
